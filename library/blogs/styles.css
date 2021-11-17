@@ -29,6 +29,10 @@ hr {
 .container-center {
     max-width: 600px;
     margin: auto;
+    padding: 2rem;
+    background-color: #93a2a3;
+    border-radius: 1rem;
+    box-shadow: 15px 15px 15px #5c7072;
 }
 
 /** links **/
@@ -79,6 +83,10 @@ hr {
     border-bottom-left-radius: 1rem;
 }
 
+.navigation{
+    box-shadow: 15px 15px 10px #5c7072;
+}
+
 .navigation .nav-brand {
     font-weight: bold;
 }
@@ -100,7 +108,7 @@ hr {
 .hero {
     padding: 2rem;
     padding-top: 5rem;
-
+    text-shadow: 5px 5px 5px #5c7072;
 }
 
 .hero .hero-img {
@@ -131,6 +139,14 @@ hr {
 
 }
 
+p {
+    text-align: justify;
+}
+
+.content {
+    padding-left: 50%;
+}
+
 .ow {
     background-color: var(--off-white);
 }
@@ -143,6 +159,7 @@ hr {
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+    margin-top: 2rem;
 }
 
 .footer .link {
